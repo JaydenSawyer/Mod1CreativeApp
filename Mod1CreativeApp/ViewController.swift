@@ -46,12 +46,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
         var result: Double = 0.0
         
         switch operation {
+            //Adding
         case.addition:
             result = firstNumber + secondNumber
+            //Subtracting
         case.subtraction:
             result = firstNumber - secondNumber
+            //multiplication
         case.multiplication:
             result = firstNumber * secondNumber
+            //divide
         case.division:
             if secondNumber != 0 {
                 result = firstNumber / secondNumber
